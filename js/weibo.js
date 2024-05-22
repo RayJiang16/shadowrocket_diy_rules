@@ -7,4 +7,10 @@ var url = $request.url;
 if (url.includes("/ad/")) {
     body = "";
 }
+if (url.includes("get_coopen_ads")) {
+    body = "";
+}
+if (url.includes("=ad")) {
+    body = "";
+}
 $done({body});
