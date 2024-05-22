@@ -4,7 +4,7 @@
 
 var body = $response.body;
 var url = $request.url;
-if (url.includes("/ad/")) {
+if (url.includes("/ad")) {
     body = "";
 }
 if (url.includes("get_coopen_ads")) {
