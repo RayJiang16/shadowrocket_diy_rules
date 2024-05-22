@@ -23,6 +23,25 @@ weiboad=type=http-response,pattern=^https?:\/\/weibointl\.api\.*weibo\.c(n|om)\/
 weiboad=type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/\d\/groups\/allgroups\/v\d,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
 # > 微博国际版_帖子下方广告banner@ddgksf2013
 weiboad=type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+# > 微博_去广告以及去除各部分推广模块@zmqcherish,@ddgksf2013
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow),requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline),requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline),requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list),requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover),requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item),requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+
+# > 微博国际版_屏蔽sdkad@ddgksf2013
+weiboad=type=http-response,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+# > 微博国际版_趋势顶部Card去广告@ddgksf2013
+weiboad=type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+# > 微博国际版_屏蔽用户VIP栏@ddgksf2013
+weiboad=type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+# > 微博国际版_热搜处理@ddgksf2013
+weiboad=type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
 
 [MITM]
 hostname = %APPEND% api.weibo.cn, api.weibo.com, *.api.weibo.cn, *.api.weibo.com, mapi.weibo.com, mapi.weibo.cn, *.uve.weibo.com, new.vip.weibo.cn, boot.biz.weibo.com, bootpreload.uve.weibo.com
