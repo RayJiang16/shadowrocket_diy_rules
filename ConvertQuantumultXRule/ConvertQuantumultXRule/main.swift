@@ -37,7 +37,7 @@ func convert() {
                     scriptList.append(preLine)
                 }
                 let tmp = line.components(separatedBy: " url script-response-body ")
-                scriptList.append(scriptName + "=http-response,pattern=" + tmp.first! + ",requires-body=1,script-path=" + tmp.last!)
+                scriptList.append(scriptName + "=type=http-response,pattern=" + tmp.first! + ",requires-body=1,script-path=" + tmp.last!)
             }
             preLine = ""
         }
