@@ -1,0 +1,21 @@
+﻿#!name=公共广告
+#!system=ios
+#!originURL=https://github.com/RayJiang16/shadowrocket_diy_rules
+
+[Url Rewrite]
+
+# 开屏广告
+^https?:\/\/mi\.gdt\.qq\.com\/ - reject
+^https?:\/\/.*\.tagtic\.cn\/ - reject
+^https?:\/\/.*\.pangolin-sdk-toutiao\.com\/ - reject
+^https?:\/\/open\.e\.kuaishou\.com\/ - reject
+
+[Script]
+
+cm=type=http-response,pattern=^https?:\/\/mi\.gdt\.qq\.com\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
+cm=type=http-response,pattern=^https?:\/\/.*\.tagtic\.cn\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
+cm=type=http-response,pattern=^https?:\/\/.*\.pangolin-sdk-toutiao\.com\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
+cm=type=http-response,pattern=^https?:\/\/open\.e\.kuaishou\.com\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
+
+[MITM]
+hostname = %APPEND% mi.gdt.qq.com, g1.tagtic.cn, *.pangolin-sdk-toutiao.com, open.e.kuaishou.com
