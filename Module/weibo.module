@@ -5,14 +5,21 @@
 
 [Url Rewrite]
 
-^https?:\/\/bootpreload\.uve\.weibo\.com\/v\d\/ad - reject
+^https?:\/\/bootpreload\.uve\.weibo\.com\/v\d\/ad\/ - reject
+^https?:\/\/bootpreload\.uve\.weibo\.com\/v\d\/ad\/preload - reject
 ^https?:\/\/boot*.*weibo\.c(n|om)\/v\d\/ad - reject
 ^https?:\/\/api\.*weibo\.c(n|om)\/\d\/ad - reject
+^https?:\/\/open\.e\.kuaishou\.com\/ - reject
+^https?:\/\/mi\.gdt\.qq\.com\/ - reject
+^https?:\/\/adstrategy\.biz\.weibo\.com\/ - reject
 
 [Script]
+# 微博快手_开屏广告
+weiboad=type=http-response,pattern=^https?:\/\/open\.e\.kuaishou\.com\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
+weiboad=type=http-response,pattern=^https?:\/\/mi\.gdt\.qq\.com\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
+
 # 微博_开屏广告预加载处理
-weiboad=type=http-response,pattern=^https?:\/\/boot*.*weibo\.c(n|om)\/v\d\/ad,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
-weiboad=type=http-response,pattern=^https?:\/\/bootpreload\.uve\.weibo\.com\/v\d\/ad,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
+weiboad=type=http-response,pattern=^https?:\/\/boot*.*weibo\.c(n|om)\/v\d\/ad\/,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
 weiboad=type=http-response,pattern=^https?:\/\/api\.*weibo\.c(n|om)\/\d\/ad,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
 weiboad=type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
 # 微博_信息流广告
@@ -43,5 +50,8 @@ weiboad=type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal
 # > 微博国际版_热搜处理@ddgksf2013
 weiboad=type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
 
+# 尝试去新开屏
+weiboad=type=http-response,pattern=^https?:\/\/adstrategy\.biz\.weibo\.com\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
+
 [MITM]
-hostname = %APPEND% api.weibo.cn, api.weibo.com, *.api.weibo.cn, *.api.weibo.com, mapi.weibo.com, mapi.weibo.cn, *.uve.weibo.com, new.vip.weibo.cn, boot.biz.weibo.com, bootpreload.uve.weibo.com
+hostname = %APPEND% api.weibo.cn, api.weibo.com, *.api.weibo.cn, *.api.weibo.com, mapi.weibo.com, mapi.weibo.cn, *.uve.weibo.com, new.vip.weibo.cn, boot.biz.weibo.com, bootpreload.uve.weibo.com, open.e.kuaishou.com, mi.gdt.qq.com, *.biz.weibo.com

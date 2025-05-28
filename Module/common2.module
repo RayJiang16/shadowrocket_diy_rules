@@ -1,0 +1,867 @@
+#!name=公共广告v2
+#!system=ios
+#!originURL=https://github.com/RayJiang16/shadowrocket_diy_rules
+#!forkURL=https://github.com/neoFelhz/neohosts/blob/b1cf018981b953052b34d52798ab8ba0277ab9d9/_data/basic/common.txt
+
+[Url Rewrite]
+
+# Disqus
+^https?:\/\/links\.services\.disqus\.com - reject
+^https?:\/\/ads\.servebom\.com - reject
+^https?:\/\/referrer\.disqus\.com - reject
+^https?:\/\/disqusads\.com - reject
+# ADColony
+^https?:\/\/wd\.adcolony\.com - reject
+^https?:\/\/events3\.adcolony\.com - reject
+^https?:\/\/adc3-launch\.adcolony\.com - reject
+^https?:\/\/ads30\.adcolony\.com - reject
+^https?:\/\/events3alt\.adcolony\.com - reject
+^https?:\/\/events3\.adcolony\.com - reject
+#adpro.cn
+^https?:\/\/conversion\.adpro\.cn - reject
+^https?:\/\/m\.adpro\.cn - reject
+^https?:\/\/x\.adpro\.cn - reject
+^https?:\/\/adpro\.pro\.cn - reject
+^https?:\/\/adx\.pro\.cn - reject
+^https?:\/\/conversion\.pro\.cn - reject
+^https?:\/\/dsp\.pro\.cn - reject
+^https?:\/\/mediapro\.pro\.cn - reject
+^https?:\/\/pro\.cn - reject
+^https?:\/\/ssp\.pro\.cn - reject
+^https?:\/\/www\.pro\.cn - reject
+#ADPush
+^https?:\/\/dmp\.adpush\.cn - reject
+^https?:\/\/img\.adpush\.cn - reject
+^https?:\/\/net\.adpush\.cn - reject
+^https?:\/\/ssp\.adpush\.cn - reject
+^https?:\/\/zc\.adpush\.cn - reject
+^https?:\/\/www\.adpush\.cn - reject
+#adsage
+^https?:\/\/config\.adsage\.cn - reject
+^https?:\/\/www\.adsage\.cn - reject
+^https?:\/\/config\.adsage\.com - reject
+^https?:\/\/download\.adsage\.com - reject
+^https?:\/\/entry\.adsage\.com - reject
+^https?:\/\/mobi\.adsage\.com - reject
+^https?:\/\/mws\.adsage\.com - reject
+^https?:\/\/trc\.adsage\.com - reject
+^https?:\/\/zt\.adsage\.com - reject
+^https?:\/\/config\.mobisage\.cn - reject
+^https?:\/\/www\.minesage\.com - reject
+#adsensor.org
+^https?:\/\/chance\.adsensor\.org - reject
+#adsmogo
+^https?:\/\/juxiao\.adsmogo\.net - reject
+^https?:\/\/www\.adsmogo\.net - reject
+^https?:\/\/adsmogo\.com - reject
+^https?:\/\/click1forhz\.adsmogo\.com - reject
+^https?:\/\/click2forhz\.adsmogo\.com - reject
+^https?:\/\/click3forhz\.adsmogo\.com - reject
+^https?:\/\/my\.adsmogo\.com - reject
+^https?:\/\/www\.adsmogo\.com - reject
+#adview.cn
+^https?:\/\/adfill\.adview\.cn - reject
+^https?:\/\/adview\.cn - reject
+^https?:\/\/bid\.adview\.cn - reject
+^https?:\/\/config\.adview\.cn - reject
+^https?:\/\/report\.adview\.cn - reject
+^https?:\/\/rtb\.adview\.cn - reject
+^https?:\/\/test2014\.adview\.cn - reject
+^https?:\/\/www\.adview\.cn - reject
+#adwo.com
+^https?:\/\/a-ad\.adwo\.com - reject
+^https?:\/\/ad-bg\.adwo\.com - reject
+^https?:\/\/ad-count\.adwo\.com - reject
+^https?:\/\/ad\.adwo\.com - reject
+^https?:\/\/adtest\.adwo\.com - reject
+^https?:\/\/ama\.adwo\.com - reject
+^https?:\/\/apiconfig\.adwo\.com - reject
+^https?:\/\/game\.adwo\.com - reject
+^https?:\/\/mw\.adwo\.com - reject
+^https?:\/\/nhz\.adwo\.com - reject
+^https?:\/\/r2\.adwo\.com - reject
+^https?:\/\/r3\.adwo\.com - reject
+^https?:\/\/sdu\.adwo\.com - reject
+^https?:\/\/static\.adwo\.com - reject
+^https?:\/\/track\.adwo\.com - reject
+^https?:\/\/www\.adwo\.com - reject
+# Amazon
+^https?:\/\/dualstack\.adsame-1421766300\.ap-southeast-1\.elb\.amazonaws\.com - reject
+^https?:\/\/c\.amazon-adsystem\.com - reject
+^https?:\/\/aax-cpm\.amazon-adsystem\.com - reject
+^https?:\/\/aax-eu\.amazon-adsystem\.com - reject
+^https?:\/\/aax-fe-pek\.amazon-adsystem\.com - reject
+^https?:\/\/aax-fe-sin\.amazon-adsystem\.com - reject
+^https?:\/\/aax-fe\.amazon-adsystem\.com - reject
+^https?:\/\/aax-us-east\.amazon-adsystem\.com - reject
+^https?:\/\/aax\.amazon-adsystem\.com - reject
+^https?:\/\/mads\.amazon-adsystem\.com - reject
+^https?:\/\/s\.amazon-adsystem\.com - reject
+# CarbonAD
+^https?:\/\/srv\.carbonads\.net - reject
+^https?:\/\/carbonads\.net - reject
+^https?:\/\/cdn\.carbonads\.com - reject
+^https?:\/\/fallbacks\.carbonads\.com - reject
+^https?:\/\/engine\.adzerk\.net - reject
+^https?:\/\/engine\.carbonads\.com - reject
+^https?:\/\/xf\.yellowto\.com - reject
+^https?:\/\/yellowto\.com - reject
+# Adobe
+^https?:\/\/activate\.adobe\.com - reject
+^https?:\/\/ereg\.adobe\.com - reject
+^https?:\/\/na1r\.services\.adobe\.com - reject
+^https?:\/\/na2m-pr\.licenses\.adobe\.com - reject
+^https?:\/\/hlrcv\.stage\.adobe\.com - reject
+^https?:\/\/lm\.licenses\.adobe\.com - reject
+^https?:\/\/lmlicenses\.wip4\.adobe\.com - reject
+^https?:\/\/hlrcv\.stage\.adobe\.com - reject
+^https?:\/\/3dns-2\.adobe\.com - reject
+^https?:\/\/3dns-3\.adobe\.com - reject
+^https?:\/\/activate-sea\.adobe\.com - reject
+^https?:\/\/activate-sjc0\.adobe\.com - reject
+^https?:\/\/adobe-dns\.adobe\.com - reject
+^https?:\/\/adobe-dns-2\.adobe\.com - reject
+^https?:\/\/adobe-dns-3\.adobe\.com - reject
+^https?:\/\/ereg\.adobe\.com - reject
+^https?:\/\/hl2rcv\.adobe\.com - reject
+^https?:\/\/practivate\.adobe\.com - reject
+^https?:\/\/wip3\.adobe\.com - reject
+^https?:\/\/activate\.wip3\.adobe\.com - reject
+^https?:\/\/ereg\.wip3\.adobe\.com - reject
+^https?:\/\/wwis-dubc1-vip60\.adobe\.com - reject
+# Deviantart
+^https?:\/\/adcast\.deviantart\.com - reject
+^https?:\/\/adimg\.deviantart\.net - reject
+# HiNet
+^https?:\/\/p8u\.hinet\.net - reject
+^https?:\/\/vatrack\.hinet\.net - reject
+^https?:\/\/adasad\.myweb\.hinet\.net - reject
+^https?:\/\/blogad01\.myweb\.hinet\.net - reject
+^https?:\/\/blogad02\.myweb\.hinet\.net - reject
+# Bitcomet
+^https?:\/\/inside\.bitcomet\.com - reject
+# Gomlab
+^https?:\/\/info\.gomlab\.com - reject
+^https?:\/\/playinfo\.gomlab\.com - reject
+^https?:\/\/promotion\.gomlab\.com - reject
+# PoyPlayer
+^https?:\/\/adimg\.daumcdn\.net - reject
+^https?:\/\/analytics\.ad\.daum\.net - reject
+^https?:\/\/display\.ad\.daum\.net - reject
+^https?:\/\/track\.tiara\.daum\.net - reject
+^https?:\/\/live\.tvpot\.daum\.net - reject
+# Winrar
+^https?:\/\/ad\.winrar\.com\.cn - reject
+# xiguavideo
+^https?:\/\/adv2\.downsave\.com - reject
+^https?:\/\/info\.downsave\.com - reject
+# jjvideo
+^https?:\/\/mini\.jijiplayer\.com - reject
+^https?:\/\/txtad\.jijiplayer\.com - reject
+# KUWO
+^https?:\/\/webstat\.kuwo\.cn - reject
+^https?:\/\/api\.iimedia\.cn - reject
+^https?:\/\/g\.haluoha\.com - reject
+^https?:\/\/g\.koowo\.com - reject
+^https?:\/\/c\.kuwo\.cn - reject
+^https?:\/\/log\.kuwo\.cn - reject
+^https?:\/\/mobilead\.kuwo\.cn - reject
+^https?:\/\/rich\.kuwo\.cn - reject
+^https?:\/\/wa\.kuwo\.cn - reject
+# OpenX
+^https?:\/\/us-u\.openx\.net - reject
+^https?:\/\/www\.openx\.net - reject
+^https?:\/\/coed-d\.openx\.net - reject
+^https?:\/\/pmc-d\.openx\.net - reject
+^https?:\/\/tmn-d\.openx\.net - reject
+^https?:\/\/rtx\.openx\.net - reject
+# Spotify
+^https?:\/\/adeventtracker\.spotify\.com - reject
+^https?:\/\/analytics\.spotify\.com - reject
+^https?:\/\/log\.spotify\.com - reject
+#domob
+^https?:\/\/api\.domob\.cn - reject
+^https?:\/\/c\.domob\.cn - reject
+^https?:\/\/domob\.cn - reject
+^https?:\/\/domob\.com\.cn - reject
+^https?:\/\/dvx-android\.domob\.cn - reject
+^https?:\/\/e\.domob\.cn - reject
+^https?:\/\/e\.domob\.com\.cn - reject
+^https?:\/\/r\.domob\.cn - reject
+^https?:\/\/r\.ow\.domob\.cn - reject
+^https?:\/\/s\.domob\.cn - reject
+^https?:\/\/scc\.domob\.cn - reject
+^https?:\/\/sd\.domob\.cn - reject
+^https?:\/\/sdl\.domob\.cn - reject
+^https?:\/\/sm\.domob\.cn - reject
+^https?:\/\/swx\.domob\.cn - reject
+#doumob
+^https?:\/\/api\.doumob\.com - reject
+^https?:\/\/www\.doumob\.com - reject
+# YinyueTai
+^https?:\/\/client\.stats\.yinyuetai\.com - reject
+^https?:\/\/log\.collect\.yinyuetai\.com - reject
+^https?:\/\/shop\.admin\.yinyuetai\.com - reject
+^https?:\/\/shop\.yinyuetai\.com - reject
+^https?:\/\/statisticsv2\.yinyuetai\.com - reject
+^https?:\/\/t\.collect\.yinyuetai\.com - reject
+^https?:\/\/col\.hztags\.net - reject
+# Meitu
+^https?:\/\/adui\.tg\.meitu\.com - reject
+^https?:\/\/rabbit\.tg\.meitu\.com - reject
+^https?:\/\/meitubeauty\.meitudata\.com - reject
+^https?:\/\/dc\.meitustat\.com - reject
+^https?:\/\/mdc\.meitustat\.com - reject
+^https?:\/\/rabbit\.meitustat\.com - reject
+^https?:\/\/rabbit\.mtadvert\.com - reject
+^https?:\/\/my-material\.zone1\.meitudata\.com - reject
+# Yandex
+^https?:\/\/mc\.yandex\.ru - reject
+^https?:\/\/an\.yandex\.ru - reject
+^https?:\/\/st\.yandexadexchange\.net - reject
+# jinritoutiao
+^https?:\/\/ad\.toutiao\.com - reject
+^https?:\/\/temai\.snssdk\.com - reject
+^https?:\/\/analytics\.snssdk\.com - reject
+^https?:\/\/pb3\.pstatp\.com - reject
+^https?:\/\/temai\.snssdk\.com - reject
+^https?:\/\/dm\.bytedance\.com - reject
+^https?:\/\/dm\.pstatp\.com - reject
+^https?:\/\/sf1-ttcdn-tos\.pstatp\.com - reject
+^https?:\/\/sf3-ttcdn-tos\.pstatp\.com - reject
+^https?:\/\/sf6-ttcdn-tos\.pstatp\.com - reject
+# Qidian
+^https?:\/\/cj\.qidian\.com - reject
+^https?:\/\/dwtrack\.qidian\.com - reject
+^https?:\/\/o\.if\.qidian\.com - reject
+^https?:\/\/uedas\.qidian\.com - reject
+^https?:\/\/uedas\.qdmm\.com - reject
+^https?:\/\/s1\.cmfu\.com - reject
+# Opera
+^https?:\/\/c\.bxb\.oupeng\.com - reject
+^https?:\/\/r\.bxb\.oupeng\.com - reject
+^https?:\/\/ezine\.oupeng\.com - reject
+^https?:\/\/img-ad\.oupeng\.com - reject
+^https?:\/\/startup\.oupeng\.com - reject
+^https?:\/\/notify\.oupeng\.com - reject
+# Zhangyue
+^https?:\/\/am\.g\.ireader\.com - reject
+^https?:\/\/img\.ad\.zhangyue\.com - reject
+^https?:\/\/m\.ad\.zhangyue\.com - reject
+^https?:\/\/push\.zhangyue\.com - reject
+^https?:\/\/sys\.zhangyue\.com - reject
+# Holalauncher
+^https?:\/\/h5\.holalauncher\.com - reject
+^https?:\/\/i\.holalauncher\.com - reject
+^https?:\/\/st\.holalauncher\.com - reject
+^https?:\/\/dh\.holaworld\.cn - reject
+^https?:\/\/dr\.holaworld\.cn - reject
+^https?:\/\/st\.holaworld\.cn - reject
+^https?:\/\/sta\.haloall\.com - reject
+^https?:\/\/a\.holagames\.com - reject
+^https?:\/\/sta\.holagames\.com - reject
+^https?:\/\/i\.haloapps\.com - reject
+^https?:\/\/mo\.test\.haloapps\.com - reject
+^https?:\/\/mo\.haloapps\.cn - reject
+# CNTV
+^https?:\/\/mdrecv\.app\.cntvwb\.cn - reject
+^https?:\/\/sdapprecv\.app\.cntvwb\.cn - reject
+^https?:\/\/vdapprecv\.app\.cntvwb\.cn - reject
+^https?:\/\/cws-cctv\.conviva\.com - reject
+^https?:\/\/galaxy\.bjcathay\.com - reject
+^https?:\/\/rtas\.videocc\.net - reject
+# Maxthon Browser
+^https?:\/\/mad\.m\.maxthon\.cn - reject
+# XDA
+^https?:\/\/adserver\.xpanama\.net - reject
+^https?:\/\/nop\.xpanama\.net - reject
+^https?:\/\/match\.adsrvr\.org - reject
+^https?:\/\/track\.eyeviewads\.com - reject
+^https?:\/\/pixel\.tapad\.com - reject
+^https?:\/\/p\.adsymptotic\.com - reject
+^https?:\/\/api\.adsymptotic\.com - reject
+^https?:\/\/ads-west-colo\.adsymptotic\.com - reject
+# adsafeprotected
+^https?:\/\/pixel\.adsafeprotected\.com - reject
+^https?:\/\/dt\.adsafeprotected\.com - reject
+^https?:\/\/fw\.adsafeprotected\.com - reject
+^https?:\/\/static\.adsafeprotected\.com - reject
+# airpush
+^https?:\/\/api\.airpush\.com - reject
+^https?:\/\/apistaging\.airpush\.com - reject
+^https?:\/\/appwall\.api\.airpush\.com - reject
+^https?:\/\/beta\.airpush\.com - reject
+^https?:\/\/m\.airpush\.com - reject
+# adtechus
+^https?:\/\/adserver\.adtechus\.com - reject
+^https?:\/\/aka-cdn-ns\.adtechus\.com - reject
+^https?:\/\/aka-cdn\.adtechus\.com - reject
+^https?:\/\/ums\.adtechus\.com - reject
+^https?:\/\/ums\.adtechjp\.com - reject
+# Anzhi
+^https?:\/\/fd\.anzhi\.com - reject
+^https?:\/\/pv\.anzhi\.com - reject
+# Renren
+^https?:\/\/click\.jebe\.renren\.com - reject
+^https?:\/\/cupid\.jebe\.renren\.com - reject
+^https?:\/\/shaft\.jebe\.renren\.com - reject
+^https?:\/\/jebe\.renren\.com - reject
+^https?:\/\/jebe\.xnimg\.cn - reject
+# Moji Weather
+^https?:\/\/ad\.api\.moji\.com - reject
+^https?:\/\/adlaunch\.moji\.com - reject
+^https?:\/\/fds\.api\.moji\.com - reject
+^https?:\/\/stat\.moji\.com - reject
+^https?:\/\/v1\.log\.moji\.com - reject
+^https?:\/\/cdn2\.moji002\.com - reject
+# Adesk
+^https?:\/\/service\.ad\.adesk\.com - reject
+# advertising.com
+^https?:\/\/pub\.pxl\.ace\.advertising\.com - reject
+^https?:\/\/pixel\.advertising\.com - reject
+^https?:\/\/adserver-us\.adtech\.advertising\.com - reject
+# moatads
+^https?:\/\/geo\.moatads\.com - reject
+^https?:\/\/px\.moatads\.com - reject
+^https?:\/\/z\.moatads\.com - reject
+# UDN
+^https?:\/\/ad1\.udn\.com - reject
+^https?:\/\/ad2\.udn\.com - reject
+^https?:\/\/ad3\.udn\.com - reject
+^https?:\/\/ad4\.udn\.com - reject
+# Yam
+^https?:\/\/ad2\.yam\.com - reject
+^https?:\/\/admd\.yam\.com - reject
+^https?:\/\/ads\.yam\.com - reject
+^https?:\/\/analytics\.yam\.com - reject
+^https?:\/\/yam\.adsbro\.com - reject
+# Adsage
+^https?:\/\/config\.adsage\.cn - reject
+^https?:\/\/config\.adsage\.com - reject
+^https?:\/\/trc\.adsage\.com - reject
+^https?:\/\/mobi\.adsage\.com - reject
+# POPAD
+^https?:\/\/c1\.popads\.net - reject
+^https?:\/\/c2\.popads\.net - reject
+^https?:\/\/serve\.popads\.net - reject
+^https?:\/\/cdn\.popmyads\.com - reject
+^https?:\/\/cdn\.popcash\.net - reject
+# TianyaBBS
+^https?:\/\/801\.tianya\.cn - reject
+^https?:\/\/803\.tianya\.cn - reject
+^https?:\/\/dol\.tianya\.cn - reject
+^https?:\/\/click\.tianyaui\.com - reject
+# QXSLA
+^https?:\/\/ddkkrrla\.m\.qxs\.la - reject
+^https?:\/\/ddrrccck\.m\.qxs\.la - reject
+^https?:\/\/dxprla\.m\.qxs\.la - reject
+^https?:\/\/yyffeicd\.m\.qxs\.la - reject
+^https?:\/\/zbz\.m\.qxs\.la - reject
+# Xvideos
+^https?:\/\/trafficfactory\.biz - reject
+^https?:\/\/media\.trafficfactory\.biz - reject
+^https?:\/\/rpc-php\.trafficfactory\.biz - reject
+# Youxiaoad
+^https?:\/\/sspapi\.youxiaoad\.com - reject
+^https?:\/\/api\.youxiaoad\.com - reject
+^https?:\/\/source\.youxiaoad\.com - reject
+^https?:\/\/ssp\.youxiaoad\.com - reject
+# tom.com
+^https?:\/\/adserve2\.tom\.com - reject
+^https?:\/\/js\.pub\.tom\.com - reject
+^https?:\/\/slides\.discovery\.tom\.com - reject
+^https?:\/\/youle\.tom\.com - reject
+# ITeye
+^https?:\/\/cee1\.iteye\.com - reject
+^https?:\/\/cee2\.iteye\.com - reject
+^https?:\/\/mpb1\.iteye\.com - reject
+^https?:\/\/mpb2\.iteye\.com - reject
+^https?:\/\/mpb2\.iteye\.com - reject
+# wapx/waps
+^https?:\/\/ads\.waps\.cn - reject
+^https?:\/\/app\.wapx\.cn - reject
+^https?:\/\/ads\.wapx\.cn - reject
+^https?:\/\/app\.waps\.cn - reject
+# a.ad
+^https?:\/\/acceptable\.a-ads\.com - reject
+# idreamsky
+^https?:\/\/app\.uu\.cc - reject
+^https?:\/\/dl\.uu\.cc - reject
+^https?:\/\/game\.subway\.uu\.cc - reject
+^https?:\/\/in1\.feed\.uu\.cc - reject
+^https?:\/\/ledou\.dl\.uu\.cc - reject
+^https?:\/\/in1\.secure\.uu\.cc - reject
+^https?:\/\/sdklog\.uu\.cc - reject
+^https?:\/\/sdkpay\.uu\.cc - reject
+#admaster
+^https?:\/\/397c0\.admaster\.com\.cn - reject
+^https?:\/\/ssv\.admaster\.com\.cn - reject
+^https?:\/\/vyk\.admaster\.com\.cn - reject
+^https?:\/\/58749\.admaster\.com\.cn - reject
+^https?:\/\/79t2\.admaster\.com\.cn - reject
+^https?:\/\/8b4pea\.c\.admaster\.com\.cn - reject
+^https?:\/\/8b6dfa\.v\.admaster\.com\.cn - reject
+^https?:\/\/8chzga\.v\.admaster\.com\.cn - reject
+^https?:\/\/8dcyqu\.c\.admaster\.com\.cn - reject
+^https?:\/\/c\.admaster\.com\.cn - reject
+^https?:\/\/click\.admaster\.com\.cn - reject
+^https?:\/\/cm\.admaster\.com\.cn - reject
+^https?:\/\/iclick\.cm\.admaster\.com\.cn - reject
+^https?:\/\/letv\.axp\.admaster\.com\.cn - reject
+^https?:\/\/letv\.cm\.admaster\.com\.cn - reject
+^https?:\/\/pptv\.adx\.admaster\.com\.cn - reject
+^https?:\/\/pptv\.cm\.admaster\.com\.cn - reject
+^https?:\/\/clickc\.admaster\.com\.cn - reject
+^https?:\/\/vpptv\.admaster\.com\.cn - reject
+^https?:\/\/pxl\.idx\.admaster\.com\.cn - reject
+^https?:\/\/rtb\.admaster\.com\.cn - reject
+^https?:\/\/smt\.admaster\.com\.cn - reject
+^https?:\/\/sohutv\.cm\.admaster\.com\.cn - reject
+^https?:\/\/v\.admaster\.com\.cn - reject
+^https?:\/\/vamaker\.cm\.admaster\.com\.cn - reject
+^https?:\/\/vbaof\.admaster\.com\.cn - reject
+^https?:\/\/vhunantv\.admaster\.com\.cn - reject
+^https?:\/\/view\.admaster\.com\.cn - reject
+^https?:\/\/viqiyi\.admaster\.com\.cn - reject
+^https?:\/\/vletv\.admaster\.com\.cn - reject
+^https?:\/\/vqq\.admaster\.com\.cn - reject
+^https?:\/\/vsohu\.admaster\.com\.cn - reject
+^https?:\/\/wisemedia\.cm\.admaster\.com\.cn - reject
+^https?:\/\/xunlei\.adx\.admaster\.com\.cn - reject
+^https?:\/\/fun\.adx\.admaster\.com\.cn - reject
+# ad-survey
+^https?:\/\/sspservice\.ad-survey\.com - reject
+^https?:\/\/tracking\.ad-survey\.com - reject
+^https?:\/\/www\.ad-survey\.com - reject
+# ADNXS
+^https?:\/\/acdn\.adnxs\.com - reject
+^https?:\/\/admeld\.adnxs\.com - reject
+^https?:\/\/cdn\.adnxs\.com - reject
+^https?:\/\/fim\.adnxs\.com - reject
+^https?:\/\/g\.adnxs\.com - reject
+^https?:\/\/gam\.adnxs\.com - reject
+^https?:\/\/ib\.adnxs\.com - reject
+^https?:\/\/photobucket\.adnxs\.com - reject
+^https?:\/\/secure-sin\.adnxs\.com - reject
+^https?:\/\/secure\.adnxs\.com - reject
+^https?:\/\/sin1\.g\.adnxs\.com - reject
+^https?:\/\/ym\.adnxs\.com - reject
+^https?:\/\/ibn\.adnxs\.com - reject
+# Fastclick
+^https?:\/\/cdn\.fastclick\.net - reject
+^https?:\/\/code\.fastclick\.net - reject
+^https?:\/\/images\.fastclick\.net - reject
+^https?:\/\/media\.fastclick\.net - reject
+^https?:\/\/secure\.fastclick\.net - reject
+^https?:\/\/sp\.fastclick\.net - reject
+^https?:\/\/sync\.fastclick\.net - reject
+# youmi
+^https?:\/\/ssl\.ymapp\.com - reject
+^https?:\/\/video\.ymapp\.com - reject
+^https?:\/\/w\.ymapp\.com - reject
+^https?:\/\/img-cdn-spot\.ymcdn\.cn - reject
+^https?:\/\/a\.img\.static\.youmi\.net - reject
+^https?:\/\/a1\.img\.static\.youmi\.net - reject
+^https?:\/\/a2\.img\.static\.youmi\.net - reject
+^https?:\/\/a3\.img\.static\.youmi\.net - reject
+^https?:\/\/aos\.wall\.youmi\.net - reject
+^https?:\/\/apk\.static\.youmi\.net - reject
+^https?:\/\/au\.youmi\.net - reject
+^https?:\/\/banner\.img\.static\.youmi\.net - reject
+^https?:\/\/cf8d\.stat\.gw\.youmi\.net - reject
+^https?:\/\/notifiter\.youmi\.net - reject
+^https?:\/\/pkg-cdn\.youmi\.net - reject
+^https?:\/\/r\.youmi\.net - reject
+^https?:\/\/s\.youmi\.net - reject
+^https?:\/\/stat\.gw\.youmi\.net - reject
+^https?:\/\/static\.youmi\.net - reject
+^https?:\/\/t\.youmi\.net - reject
+^https?:\/\/track\.dmp\.youmi\.net - reject
+# Suning
+^https?:\/\/dfp\.suning\.com - reject
+^https?:\/\/ssac\.suning\.com - reject
+# 91Porn
+^https?:\/\/ad\.cdn\.sex - reject
+# App startpage AD
+^https?:\/\/g1\.tagtic\.cn - reject
+^https?:\/\/img\.adnyg\.com - reject
+^https?:\/\/img\.adnyg\.com\.w\.kunlungr\.com - reject
+^https?:\/\/log\.tagtic\.cn - reject
+^https?:\/\/pgdt\.ugdtimg\.com - reject
+^https?:\/\/sdownload\.stargame\.com - reject
+# mediav
+^https?:\/\/static\.mediav\.com - reject
+^https?:\/\/show-g\.mediav\.com - reject
+# Chinaz
+^https?:\/\/stats\.chinaz\.com - reject
+^https?:\/\/a1\.zhanzhang\.net - reject
+^https?:\/\/a2\.zhanzhang\.net - reject
+^https?:\/\/a3\.zhanzhang\.net - reject
+^https?:\/\/a4\.zhanzhang\.net - reject
+# Jandan.net
+^https?:\/\/s\.jandan\.com - reject
+^https?:\/\/a3\.jandan\.net - reject
+^https?:\/\/b3\.jandan\.net - reject
+# CSDN
+^https?:\/\/medal\.blog\.csdn\.net - reject
+^https?:\/\/nbrecsys\.4paradigm\.com - reject
+^https?:\/\/kunpeng\.csdn\.net - reject
+^https?:\/\/beacon\.tingyun\.com - reject
+^https?:\/\/kunpeng-sc\.csdnimg\.cn - reject
+# Traffic Junky
+^https?:\/\/ads\.trafficjunky\.net - reject
+^https?:\/\/media\.trafficjunky\.net - reject
+^https?:\/\/vz-cdn\.trafficjunky\.net - reject
+^https?:\/\/ctrack\.trafficjunky\.net - reject
+# Aizhan
+^https?:\/\/fpbb\.aizhan\.com - reject
+^https?:\/\/dmm\.aizhan\.com - reject
+^https?:\/\/dm\.aizhan\.com - reject
+# Tanv
+^https?:\/\/appapisdk\.tanv\.com - reject
+^https?:\/\/appsdk\.tanv\.com - reject
+^https?:\/\/img2\.tanv\.com - reject
+^https?:\/\/img1\.tanv\.com - reject
+# Pixiv
+^https?:\/\/pixon\.ads-pixiv\.net - reject
+^https?:\/\/open-pixon\.ads-pixiv\.net - reject
+^https?:\/\/tag-store\.ads-pixiv\.net - reject
+^https?:\/\/j\.microad\.net - reject
+^https?:\/\/jgl\.microad\.net - reject
+^https?:\/\/aid\.send\.microad\.jp - reject
+^https?:\/\/img\.ak\.impact-ad\.jp - reject
+^https?:\/\/y\.one\.impact-ad\.jp - reject
+# Jianshu
+^https?:\/\/static\.thefifthera\.com - reject
+^https?:\/\/vi12x\.xcle\.cn - reject
+# Bianxianniu
+^https?:\/\/www\.wifidown\.com - reject
+^https?:\/\/www\.baidushifen\.com - reject
+^https?:\/\/www\.star-media\.cn - reject
+^https?:\/\/www\.jiudianxing\.cn - reject
+^https?:\/\/www\.jiudianxing\.com - reject
+^https?:\/\/www\.taojin1688\.com - reject
+^https?:\/\/www\.smucdn\.com - reject
+^https?:\/\/www\.sinawap\.com - reject
+^https?:\/\/www\.iscrv\.com - reject
+^https?:\/\/www\.owueis\.com - reject
+^https?:\/\/www\.nkscdn\.com - reject
+^https?:\/\/www\.2shouhc\.com - reject
+^https?:\/\/www\.vxsnk\.com - reject
+^https?:\/\/www\.migdtqq\.com - reject
+^https?:\/\/www\.gdtqq\.cn - reject
+^https?:\/\/www\.danqingschool\.com - reject
+^https?:\/\/www\.xcggpt\.net - reject
+^https?:\/\/www\.xcggpt\.cn - reject
+^https?:\/\/www\.xcggpt\.com - reject
+^https?:\/\/www\.wannianli\.mobi - reject
+^https?:\/\/www\.jobduo\.cn - reject
+^https?:\/\/www\.liteapp\.mobi - reject
+^https?:\/\/www\.xingchenjia\.com - reject
+^https?:\/\/www\.wjxcdn\.com - reject
+# MX Player
+^https?:\/\/mxvp-ad-config-prod-1\.zenmxapps\.com - reject
+^https?:\/\/mxvp-feature-toggle-prod-1\.zenmxapps\.com - reject
+^https?:\/\/tracking-server-prod-1\.zenmxapps\.com - reject
+# tagic
+^https?:\/\/g1\.tagtic\.cn - reject
+^https?:\/\/adlog\.tagtic\.cn - reject
+^https?:\/\/log\.tagtic\.cn - reject
+# vidown
+^https?:\/\/conf\.vidown\.cn - reject
+^https?:\/\/gg\.vidown\.cn - reject
+^https?:\/\/minisite\.vidown\.cn - reject
+^https?:\/\/rtlog\.vidown\.cn - reject
+^https?:\/\/tj\.vidown\.cn - reject
+# Duomi
+^https?:\/\/service\.ad\.duomi\.com - reject
+# Qingting FM
+^https?:\/\/ad\.qingting\.fm - reject
+^https?:\/\/s\.qtad\.qingting\.fm - reject
+# Ximalaya
+^https?:\/\/ad\.ximalaya\.com - reject
+^https?:\/\/adse\.ximalaya\.com - reject
+# Miguvideo
+^https?:\/\/adxserver\.ad\.cmvideo\.cn - reject
+^https?:\/\/dspserver\.ad\.cmvideo\.cn - reject
+^https?:\/\/openstorage\.ad\.cmvideo\.cn - reject
+^https?:\/\/wtrace\.cmgame\.com - reject
+# 1Ting
+^https?:\/\/bddm\.999d\.com - reject
+^https?:\/\/bdjs\.999d\.com - reject
+# Hola App
+^https?:\/\/h5\.holalauncher\.com - reject
+^https?:\/\/i\.holalauncher\.com - reject
+^https?:\/\/st\.holalauncher\.com - reject
+^https?:\/\/a\.holagames\.com - reject
+^https?:\/\/sta\.holagames\.com - reject
+^https?:\/\/i\.haloapps\.com - reject
+^https?:\/\/mo\.test\.haloapps\.com - reject
+^https?:\/\/mo\.haloapps\.cn - reject
+# Exoclick
+^https?:\/\/a\.exoclick\.com - reject
+^https?:\/\/ads\.exoclick\.com - reject
+^https?:\/\/main\.exoclick\.com - reject
+^https?:\/\/origin-ads\.exoclick\.com - reject
+^https?:\/\/static\.exoclick\.com - reject
+^https?:\/\/syndication\.exoclick\.com - reject
+# Others
+^https?:\/\/push\.wandoujia\.com - reject
+^https?:\/\/ss\.missyouxi\.com - reject
+^https?:\/\/ad\.zuimeitianqi\.com - reject
+^https?:\/\/stat\.zuimeitianqi\.com - reject
+^https?:\/\/bd1\.zuimeitianqi\.com - reject
+^https?:\/\/bd2\.zuimeitianqi\.com - reject
+^https?:\/\/hwad\.zuimeitianqi\.com - reject
+^https?:\/\/ad\.caiyunapp\.com - reject
+^https?:\/\/dualstack\.adsame-1421766300\.ap-southeast-1\.elb\.amazonaws\.com - reject
+^https?:\/\/tuiguang\.meitu\.com - reject
+^https?:\/\/dfc1\.benbaisteel\.com - reject
+^https?:\/\/hyfh\.benbaisteel\.com - reject
+^https?:\/\/coro\.benbaisteel\.com - reject
+^https?:\/\/a\.epinv\.com - reject
+^https?:\/\/b\.epinv\.com - reject
+^https?:\/\/c1\.adform\.net - reject
+^https?:\/\/cas\.pxl\.ace\.advertising\.com - reject
+^https?:\/\/cdn\.adsk2\.co - reject
+^https?:\/\/cdn\.adstract\.com - reject
+^https?:\/\/adsco\.re - reject
+^https?:\/\/sdksitter\.m\.sjzhushou\.com - reject
+^https?:\/\/pat\.farvd\.com - reject
+^https?:\/\/openapi\.guanjia\.qq\.com - reject
+^https?:\/\/discuz\.gtimg\.cn - reject
+^https?:\/\/adimg\.qxlsjw\.com - reject
+^https?:\/\/ad\.netowl\.jp - reject
+^https?:\/\/ads\.stickyadstv\.com - reject
+^https?:\/\/ads\.adaptv\.advertising\.com - reject
+^https?:\/\/pixel\.mathtag\.com - reject
+^https?:\/\/pixel\.sitescout\.com - reject
+^https?:\/\/u\.ads8\.com - reject
+^https?:\/\/46sg\.com - reject
+^https?:\/\/x\.cnxad\.com - reject
+^https?:\/\/um2\.eqads\.com - reject
+^https?:\/\/ads\.pubmatic\.com - reject
+^https?:\/\/cdn\.taboolasyndication\.com - reject
+^https?:\/\/ads\.979799777\.com - reject
+^https?:\/\/c\.betrad\.com - reject
+^https?:\/\/rt\.gsspat\.jp - reject
+^https?:\/\/rudy\.adsnative\.com - reject
+^https?:\/\/sc\.iasds01\.com - reject
+^https?:\/\/tags\.bluekai\.com - reject
+^https?:\/\/stags\.bluekai\.com - reject
+^https?:\/\/static\.tzyiyuantuan\.com - reject
+^https?:\/\/srv\.buysellads\.com - reject
+^https?:\/\/ad\.greedland\.net - reject
+^https?:\/\/ad1\.greedland\.net - reject
+^https?:\/\/ad\.363\.in - reject
+^https?:\/\/padsdel2\.cdnads\.com - reject
+^https?:\/\/f1\.luoshenbest\.cn - reject
+^https?:\/\/lm\.souid\.com - reject
+^https?:\/\/nai\.cpxkvc\.com - reject
+^https?:\/\/wuqdebjfhjas\.bid - reject
+^https?:\/\/bes-progfree\.com - reject
+^https?:\/\/bdd\.hainan\.net - reject
+^https?:\/\/bds\.hainan\.net - reject
+^https?:\/\/script-bd\.baixing\.net - reject
+^https?:\/\/tu\.baixing\.com - reject
+^https?:\/\/us\.bannyat\.com - reject
+^https?:\/\/as\.trklinklog\.com - reject
+^https?:\/\/m\.adxpop\.com - reject
+^https?:\/\/obeyter\.com - reject
+^https?:\/\/18av\.mm-cg\.co - reject
+^https?:\/\/c\.adsco\.re - reject
+^https?:\/\/musik-mp3\.info - reject
+^https?:\/\/www\.uulucky\.com - reject
+^https?:\/\/m\.kubiqq\.com - reject
+^https?:\/\/offline-adv\.oray\.com - reject
+^https?:\/\/hao\.qquu8\.com - reject
+^https?:\/\/hao549\.com - reject
+^https?:\/\/www\.i1236\.net - reject
+^https?:\/\/hk\.jtsh123\.com - reject
+^https?:\/\/hao\.7654\.com - reject
+^https?:\/\/ad\.adhouyi\.cn - reject
+^https?:\/\/ad\.wang502\.com - reject
+^https?:\/\/maw\.wnbfw\.com - reject
+^https?:\/\/m\.laojiayoufang\.com - reject
+^https?:\/\/58lm\.vip - reject
+^https?:\/\/pb\.wang502\.com - reject
+^https?:\/\/lm\.dawenxue\.org - reject
+^https?:\/\/img\.dawenxue\.org - reject
+^https?:\/\/www\.yueyelive\.com - reject
+^https?:\/\/e\.yangjingbang\.net - reject
+^https?:\/\/kn\.zzdahan\.com - reject
+^https?:\/\/m\.28487\.net - reject
+^https?:\/\/m\.fhxsw\.org - reject
+^https?:\/\/m\.guanren9\.com - reject
+^https?:\/\/m\.yangjingbang\.net - reject
+^https?:\/\/s\.l8l9\.com - reject
+^https?:\/\/a\.m\.shuhuangge\.org - reject
+^https?:\/\/ow\.s1\.shuhuangge\.org - reject
+^https?:\/\/ow\.s2\.shuhuangge\.org - reject
+^https?:\/\/sdk\.cferw\.com - reject
+^https?:\/\/hbdt\.luomi\.com - reject
+^https?:\/\/material\.mtty\.xin - reject
+^https?:\/\/mtty-cdn\.mtty\.xin - reject
+^https?:\/\/ds-pc\.admsger\.com - reject
+^https?:\/\/stats\.dmp\.ghac\.cn - reject
+^https?:\/\/tj\.tongjiwo\.com - reject
+^https?:\/\/weyyae\.com - reject
+^https?:\/\/fxc\.aiquxs\.com - reject
+^https?:\/\/pwj\.biqugezw\.com - reject
+^https?:\/\/vmzqwz\.cn - reject
+^https?:\/\/e\.emgwq\.com - reject
+^https?:\/\/ad\.wretch\.cc - reject
+^https?:\/\/m\.emgwq\.com - reject
+^https?:\/\/e\.hellomingpian\.com - reject
+^https?:\/\/m\.hellomingpian\.com - reject
+^https?:\/\/a\.tribalfusion\.com - reject
+^https?:\/\/acuityplatform\.com - reject
+^https?:\/\/ad-delivery\.net - reject
+^https?:\/\/adadvisor\.net - reject
+^https?:\/\/ads\.creative-serving\.com - reject
+^https?:\/\/adserver\.adtech\.de - reject
+^https?:\/\/api\.primecaster\.net - reject
+^https?:\/\/api\.tr\.blismedia\.com - reject
+^https?:\/\/b1sync\.zemanta\.com - reject
+^https?:\/\/bh\.contextweb\.com - reject
+^https?:\/\/bttrack\.com - reject
+^https?:\/\/c1\.adform\.net - reject
+^https?:\/\/cdn\.districtm\.io - reject
+^https?:\/\/cm\.adgrx\.com - reject
+^https?:\/\/cm\.ctnsnet\.com - reject
+^https?:\/\/cm\.eyereturn\.com - reject
+^https?:\/\/cm\.netseer\.com - reject
+^https?:\/\/cms\.quantserve\.com - reject
+^https?:\/\/cr-p16\.ladsp\.com - reject
+^https?:\/\/cti\.w55c\.net - reject
+^https?:\/\/d5p\.de17a\.com - reject
+^https?:\/\/dpm\.demdex\.net - reject
+^https?:\/\/dsp\.adfarm1\.adition\.com - reject
+^https?:\/\/gload\.adhood\.com - reject
+^https?:\/\/green\.erne\.co - reject
+^https?:\/\/i\.w55c\.net - reject
+^https?:\/\/magnetic\.t\.domdex\.com - reject
+^https?:\/\/map\.media6degrees\.com - reject
+^https?:\/\/match\.adsby\.bidtheatre\.com - reject
+^https?:\/\/match\.prod\.bidr\.io - reject
+^https?:\/\/match\.rundsp\.com - reject
+^https?:\/\/mpp\.vindicosuite\.com - reject
+^https?:\/\/onetag-sys\.com - reject
+^https?:\/\/p\.rfihub\.com - reject
+^https?:\/\/pix\.impdesk\.com - reject
+^https?:\/\/pixel-a\.sitescout\.com - reject
+^https?:\/\/pixel\.mathtag\.com - reject
+^https?:\/\/pixel\.rubiconproject\.com - reject
+^https?:\/\/pixel\.tapad\.com - reject
+^https?:\/\/px\.adhigh\.net - reject
+^https?:\/\/px\.owneriq\.net - reject
+^https?:\/\/px\.powerlinks\.com - reject
+^https?:\/\/pxl\.connexity\.net - reject
+^https?:\/\/r\.254a\.com - reject
+^https?:\/\/rbp\.emea\.mxptint\.net - reject
+^https?:\/\/rbp\.mxptint\.net - reject
+^https?:\/\/rc2waycm-atl\.netmng\.com - reject
+^https?:\/\/rcp\.c\.appier\.net - reject
+^https?:\/\/rp\.gwallet\.com - reject
+^https?:\/\/rub\.pxl\.ace\.advertising\.com - reject
+^https?:\/\/rubicon-match\.dotomi\.com - reject
+^https?:\/\/sync-dsp\.ad-m\.asia - reject
+^https?:\/\/sync-tm\.everesttech\.net - reject
+^https?:\/\/sync\.1rx\.io - reject
+^https?:\/\/sync\.adaptv\.advertising\.com - reject
+^https?:\/\/sync\.adotmob\.com - reject
+^https?:\/\/sync\.extend\.tv - reject
+^https?:\/\/sync\.intentiq\.com - reject
+^https?:\/\/sync\.ipredictive\.com - reject
+^https?:\/\/sync\.mathtag\.com - reject
+^https?:\/\/sync\.tidaltv\.com - reject
+^https?:\/\/tap-t\.rubiconproject\.com - reject
+^https?:\/\/tap\.rubiconproject\.com - reject
+^https?:\/\/token\.rubiconproject\.com - reject
+^https?:\/\/track-east\.mobileadtrading\.com - reject
+^https?:\/\/track\.eyeviewads\.com - reject
+^https?:\/\/tracking\.m6r\.eu - reject
+^https?:\/\/um\.simpli\.fi - reject
+^https?:\/\/um2\.eqads\.com - reject
+^https?:\/\/usync\.aws\.rubiconproject\.com - reject
+^https?:\/\/e\.romgv\.com - reject
+^https?:\/\/m\.romgv\.com - reject
+^https?:\/\/track-east\.mobileadtrading\.com - reject
+^https?:\/\/track\.eyeviewads\.com - reject
+^https?:\/\/tracking\.m6r\.eu - reject
+^https?:\/\/ad-delivery\.net - reject
+^https?:\/\/adadvisor\.net - reject
+^https?:\/\/ads\.creative-serving\.com - reject
+^https?:\/\/adserver\.adtech\.de - reject
+^https?:\/\/shiwan\.dl\.gxpan\.cn - reject
+^https?:\/\/va\.gxpan\.cn - reject
+^https?:\/\/api2\.play\.cn - reject
+^https?:\/\/open\.play\.cn - reject
+^https?:\/\/log\.vcgame\.cn - reject
+^https?:\/\/mcore\.vcgame\.cn - reject
+^https?:\/\/actsdk\.idreamsky\.com - reject
+^https?:\/\/v1-feed\.idreamsky\.com - reject
+^https?:\/\/img1\.km\.com - reject
+^https?:\/\/img2\.km\.com - reject
+^https?:\/\/img3\.km\.com - reject
+^https?:\/\/dvsend\.china\.com - reject
+^https?:\/\/dvser\.china\.com - reject
+^https?:\/\/dvser02\.china\.com - reject
+^https?:\/\/rank\.hit\.china\.com - reject
+^https?:\/\/sssvd\.china\.com - reject
+^https?:\/\/bd-s\.baixing\.net - reject
+^https?:\/\/bd-js\.baixing\.net - reject
+^https?:\/\/iadctest\.qwapi\.com - reject
+^https?:\/\/bdtv\.tianlangkm\.com - reject
+^https?:\/\/4336wang\.cn - reject
+^https?:\/\/ads-a\.juicyads\.com - reject
+^https?:\/\/adserver\.juicyads\.com - reject
+^https?:\/\/static\.exosrv\.com - reject
+^https?:\/\/static\.adxadserv\.com - reject
+^https?:\/\/ads\.adxadserv\.com - reject
+^https?:\/\/pr\.adxxx\.com - reject
+^https?:\/\/adxxx\.com - reject
+^https?:\/\/spcdnsp\.i-mobile\.co\.jp - reject
+^https?:\/\/activity\.tuipear\.com - reject
+^https?:\/\/go\.padsdel\.com - reject
+^https?:\/\/ad\.ettoday\.net - reject
+^https?:\/\/aima\.weathercn\.com - reject
+^https?:\/\/bima\.weathercn\.com - reject
+^https?:\/\/baidu1\.weather\.com\.cn - reject
+^https?:\/\/mc\.weather\.com\.cn - reject
+^https?:\/\/dma\.15tianqi\.com - reject
+^https?:\/\/jsa\.15tianqi\.com - reject
+^https?:\/\/static\.hotjar\.com - reject
+^https?:\/\/ad\.wang502\.com - reject
+^https?:\/\/pb\.wang502\.com - reject
+^https?:\/\/a\.19869\.com - reject
+^https?:\/\/b\.19869\.com - reject
+^https?:\/\/statics\.woozooo\.com - reject
+^https?:\/\/c\.evidon\.com - reject
+^https?:\/\/r\.dlandroid\.com - reject
+^https?:\/\/banners\.mellowads\.com - reject
+^https?:\/\/ad\.lflucky\.com - reject
+^https?:\/\/i\.bestcontentfare\.top - reject
+^https?:\/\/ad\.360yield\.com - reject
+^https?:\/\/x\.bidswitch\.com - reject
+^https?:\/\/cdn\.branch\.io - reject
+^https?:\/\/adlog\.tagtic\.cn - reject
+^https?:\/\/sss\.bxnms\.com - reject
+^https?:\/\/extlog\.snssdk\.com - reject
+^https?:\/\/vt\.ipinyou\.com - reject
+^https?:\/\/api\.24kidea\.com - reject
+^https?:\/\/e\.xroun\.com - reject
+^https?:\/\/m\.data\.mob\.com - reject
+^https?:\/\/img\.adnyg\.com - reject
+^https?:\/\/pgdt\.ugdtimg\.com - reject
+^https?:\/\/sdownload\.stargame\.com - reject
+^https?:\/\/s\.de123\.net - reject
+^https?:\/\/dc\.vmoters\.com - reject
+^https?:\/\/cdn\.runative-syndicate\.com - reject
+^https?:\/\/jy\.ggweb\.net - reject
+^https?:\/\/odr\.mookie1\.com - reject
+^https?:\/\/consent\.cookiebot\.com - reject
+^https?:\/\/a\.adtng\.com - reject
+
+[MITM]
+hostname = %APPEND% links.services.disqus.com, ads.servebom.com, referrer.disqus.com, disqusads.com, wd.adcolony.com, events3.adcolony.com, adc3-launch.adcolony.com, ads30.adcolony.com, events3alt.adcolony.com, events3.adcolony.com, conversion.adpro.cn, m.adpro.cn, x.adpro.cn, adpro.pro.cn, adx.pro.cn, conversion.pro.cn, dsp.pro.cn, mediapro.pro.cn, pro.cn, ssp.pro.cn, www.pro.cn, dmp.adpush.cn, img.adpush.cn, net.adpush.cn, ssp.adpush.cn, zc.adpush.cn, www.adpush.cn, config.adsage.cn, www.adsage.cn, config.adsage.com, download.adsage.com, entry.adsage.com, mobi.adsage.com, mws.adsage.com, trc.adsage.com, zt.adsage.com, config.mobisage.cn, www.minesage.com, chance.adsensor.org, juxiao.adsmogo.net, www.adsmogo.net, adsmogo.com, click1forhz.adsmogo.com, click2forhz.adsmogo.com, click3forhz.adsmogo.com, my.adsmogo.com, www.adsmogo.com, adfill.adview.cn, adview.cn, bid.adview.cn, config.adview.cn, report.adview.cn, rtb.adview.cn, test2014.adview.cn, www.adview.cn, a-ad.adwo.com, ad-bg.adwo.com, ad-count.adwo.com, ad.adwo.com, adtest.adwo.com, ama.adwo.com, apiconfig.adwo.com, game.adwo.com, mw.adwo.com, nhz.adwo.com, r2.adwo.com, r3.adwo.com, sdu.adwo.com, static.adwo.com, track.adwo.com, www.adwo.com, dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com, c.amazon-adsystem.com, aax-cpm.amazon-adsystem.com, aax-eu.amazon-adsystem.com, aax-fe-pek.amazon-adsystem.com, aax-fe-sin.amazon-adsystem.com, aax-fe.amazon-adsystem.com, aax-us-east.amazon-adsystem.com, aax.amazon-adsystem.com, mads.amazon-adsystem.com, s.amazon-adsystem.com, srv.carbonads.net, carbonads.net, cdn.carbonads.com, fallbacks.carbonads.com, engine.adzerk.net, engine.carbonads.com, xf.yellowto.com, yellowto.com, activate.adobe.com, ereg.adobe.com, na1r.services.adobe.com, na2m-pr.licenses.adobe.com, hlrcv.stage.adobe.com, lm.licenses.adobe.com, lmlicenses.wip4.adobe.com, hlrcv.stage.adobe.com, 3dns-2.adobe.com, 3dns-3.adobe.com, activate-sea.adobe.com, activate-sjc0.adobe.com, adobe-dns.adobe.com, adobe-dns-2.adobe.com, adobe-dns-3.adobe.com, ereg.adobe.com, hl2rcv.adobe.com, practivate.adobe.com, wip3.adobe.com, activate.wip3.adobe.com, ereg.wip3.adobe.com, wwis-dubc1-vip60.adobe.com, adcast.deviantart.com, adimg.deviantart.net, p8u.hinet.net, vatrack.hinet.net, adasad.myweb.hinet.net, blogad01.myweb.hinet.net, blogad02.myweb.hinet.net, inside.bitcomet.com, info.gomlab.com, playinfo.gomlab.com, promotion.gomlab.com, adimg.daumcdn.net, analytics.ad.daum.net, display.ad.daum.net, track.tiara.daum.net, live.tvpot.daum.net, ad.winrar.com.cn, adv2.downsave.com, info.downsave.com, mini.jijiplayer.com, txtad.jijiplayer.com, webstat.kuwo.cn, api.iimedia.cn, g.haluoha.com, g.koowo.com, c.kuwo.cn, log.kuwo.cn, mobilead.kuwo.cn, rich.kuwo.cn, wa.kuwo.cn, us-u.openx.net, www.openx.net, coed-d.openx.net, pmc-d.openx.net, tmn-d.openx.net, rtx.openx.net, adeventtracker.spotify.com, analytics.spotify.com, log.spotify.com, api.domob.cn, c.domob.cn, domob.cn, domob.com.cn, dvx-android.domob.cn, e.domob.cn, e.domob.com.cn, r.domob.cn, r.ow.domob.cn, s.domob.cn, scc.domob.cn, sd.domob.cn, sdl.domob.cn, sm.domob.cn, swx.domob.cn, api.doumob.com, www.doumob.com, client.stats.yinyuetai.com, log.collect.yinyuetai.com, shop.admin.yinyuetai.com, shop.yinyuetai.com, statisticsv2.yinyuetai.com, t.collect.yinyuetai.com, col.hztags.net, adui.tg.meitu.com, rabbit.tg.meitu.com, meitubeauty.meitudata.com, dc.meitustat.com, mdc.meitustat.com, rabbit.meitustat.com, rabbit.mtadvert.com, my-material.zone1.meitudata.com, mc.yandex.ru, an.yandex.ru, st.yandexadexchange.net, ad.toutiao.com, temai.snssdk.com, analytics.snssdk.com, pb3.pstatp.com, temai.snssdk.com, dm.bytedance.com, dm.pstatp.com, sf1-ttcdn-tos.pstatp.com, sf3-ttcdn-tos.pstatp.com, sf6-ttcdn-tos.pstatp.com, cj.qidian.com, dwtrack.qidian.com, o.if.qidian.com, uedas.qidian.com, uedas.qdmm.com, s1.cmfu.com, c.bxb.oupeng.com, r.bxb.oupeng.com, ezine.oupeng.com, img-ad.oupeng.com, startup.oupeng.com, notify.oupeng.com, am.g.ireader.com, img.ad.zhangyue.com, m.ad.zhangyue.com, push.zhangyue.com, sys.zhangyue.com, h5.holalauncher.com, i.holalauncher.com, st.holalauncher.com, dh.holaworld.cn, dr.holaworld.cn, st.holaworld.cn, sta.haloall.com, a.holagames.com, sta.holagames.com, i.haloapps.com, mo.test.haloapps.com, mo.haloapps.cn, mdrecv.app.cntvwb.cn, sdapprecv.app.cntvwb.cn, vdapprecv.app.cntvwb.cn, cws-cctv.conviva.com, galaxy.bjcathay.com, rtas.videocc.net, mad.m.maxthon.cn, adserver.xpanama.net, nop.xpanama.net, match.adsrvr.org, track.eyeviewads.com, pixel.tapad.com, p.adsymptotic.com, api.adsymptotic.com, ads-west-colo.adsymptotic.com, pixel.adsafeprotected.com, dt.adsafeprotected.com, fw.adsafeprotected.com, static.adsafeprotected.com, api.airpush.com, apistaging.airpush.com, appwall.api.airpush.com, beta.airpush.com, m.airpush.com, adserver.adtechus.com, aka-cdn-ns.adtechus.com, aka-cdn.adtechus.com, ums.adtechus.com, ums.adtechjp.com, fd.anzhi.com, pv.anzhi.com, click.jebe.renren.com, cupid.jebe.renren.com, shaft.jebe.renren.com, jebe.renren.com, jebe.xnimg.cn, ad.api.moji.com, adlaunch.moji.com, fds.api.moji.com, stat.moji.com, v1.log.moji.com, cdn2.moji002.com, service.ad.adesk.com, pub.pxl.ace.advertising.com, pixel.advertising.com, adserver-us.adtech.advertising.com, geo.moatads.com, px.moatads.com, z.moatads.com, ad1.udn.com, ad2.udn.com, ad3.udn.com, ad4.udn.com, ad2.yam.com, admd.yam.com, ads.yam.com, analytics.yam.com, yam.adsbro.com, config.adsage.cn, config.adsage.com, trc.adsage.com, mobi.adsage.com, c1.popads.net, c2.popads.net, serve.popads.net, cdn.popmyads.com, cdn.popcash.net, 801.tianya.cn, 803.tianya.cn, dol.tianya.cn, click.tianyaui.com, ddkkrrla.m.qxs.la, ddrrccck.m.qxs.la, dxprla.m.qxs.la, yyffeicd.m.qxs.la, zbz.m.qxs.la, trafficfactory.biz, media.trafficfactory.biz, rpc-php.trafficfactory.biz, sspapi.youxiaoad.com, api.youxiaoad.com, source.youxiaoad.com, ssp.youxiaoad.com, adserve2.tom.com, js.pub.tom.com, slides.discovery.tom.com, youle.tom.com, cee1.iteye.com, cee2.iteye.com, mpb1.iteye.com, mpb2.iteye.com, mpb2.iteye.com, ads.waps.cn, app.wapx.cn, ads.wapx.cn, app.waps.cn, acceptable.a-ads.com, app.uu.cc, dl.uu.cc, game.subway.uu.cc, in1.feed.uu.cc, ledou.dl.uu.cc, in1.secure.uu.cc, sdklog.uu.cc, sdkpay.uu.cc, 397c0.admaster.com.cn, ssv.admaster.com.cn, vyk.admaster.com.cn, 58749.admaster.com.cn, 79t2.admaster.com.cn, 8b4pea.c.admaster.com.cn, 8b6dfa.v.admaster.com.cn, 8chzga.v.admaster.com.cn, 8dcyqu.c.admaster.com.cn, c.admaster.com.cn, click.admaster.com.cn, cm.admaster.com.cn, iclick.cm.admaster.com.cn, letv.axp.admaster.com.cn, letv.cm.admaster.com.cn, pptv.adx.admaster.com.cn, pptv.cm.admaster.com.cn, clickc.admaster.com.cn, vpptv.admaster.com.cn, pxl.idx.admaster.com.cn, rtb.admaster.com.cn, smt.admaster.com.cn, sohutv.cm.admaster.com.cn, v.admaster.com.cn, vamaker.cm.admaster.com.cn, vbaof.admaster.com.cn, vhunantv.admaster.com.cn, view.admaster.com.cn, viqiyi.admaster.com.cn, vletv.admaster.com.cn, vqq.admaster.com.cn, vsohu.admaster.com.cn, wisemedia.cm.admaster.com.cn, xunlei.adx.admaster.com.cn, fun.adx.admaster.com.cn, sspservice.ad-survey.com, tracking.ad-survey.com, www.ad-survey.com, acdn.adnxs.com, admeld.adnxs.com, cdn.adnxs.com, fim.adnxs.com, g.adnxs.com, gam.adnxs.com, ib.adnxs.com, photobucket.adnxs.com, secure-sin.adnxs.com, secure.adnxs.com, sin1.g.adnxs.com, ym.adnxs.com, ibn.adnxs.com, cdn.fastclick.net, code.fastclick.net, images.fastclick.net, media.fastclick.net, secure.fastclick.net, sp.fastclick.net, sync.fastclick.net, ssl.ymapp.com, video.ymapp.com, w.ymapp.com, img-cdn-spot.ymcdn.cn, a.img.static.youmi.net, a1.img.static.youmi.net, a2.img.static.youmi.net, a3.img.static.youmi.net, aos.wall.youmi.net, apk.static.youmi.net, au.youmi.net, banner.img.static.youmi.net, cf8d.stat.gw.youmi.net, notifiter.youmi.net, pkg-cdn.youmi.net, r.youmi.net, s.youmi.net, stat.gw.youmi.net, static.youmi.net, t.youmi.net, track.dmp.youmi.net, dfp.suning.com, ssac.suning.com, ad.cdn.sex, g1.tagtic.cn, img.adnyg.com, img.adnyg.com.w.kunlungr.com, log.tagtic.cn, pgdt.ugdtimg.com, sdownload.stargame.com, static.mediav.com, show-g.mediav.com, stats.chinaz.com, a1.zhanzhang.net, a2.zhanzhang.net, a3.zhanzhang.net, a4.zhanzhang.net, s.jandan.com, a3.jandan.net, b3.jandan.net, medal.blog.csdn.net, nbrecsys.4paradigm.com, kunpeng.csdn.net, beacon.tingyun.com, kunpeng-sc.csdnimg.cn, ads.trafficjunky.net, media.trafficjunky.net, vz-cdn.trafficjunky.net, ctrack.trafficjunky.net, fpbb.aizhan.com, dmm.aizhan.com, dm.aizhan.com, appapisdk.tanv.com, appsdk.tanv.com, img2.tanv.com, img1.tanv.com, pixon.ads-pixiv.net, open-pixon.ads-pixiv.net, tag-store.ads-pixiv.net, j.microad.net, jgl.microad.net, aid.send.microad.jp, img.ak.impact-ad.jp, y.one.impact-ad.jp, static.thefifthera.com, vi12x.xcle.cn, www.wifidown.com, www.baidushifen.com, www.star-media.cn, www.jiudianxing.cn, www.jiudianxing.com, www.taojin1688.com, www.smucdn.com, www.sinawap.com, www.iscrv.com, www.owueis.com, www.nkscdn.com, www.2shouhc.com, www.vxsnk.com, www.migdtqq.com, www.gdtqq.cn, www.danqingschool.com, www.xcggpt.net, www.xcggpt.cn, www.xcggpt.com, www.wannianli.mobi, www.jobduo.cn, www.liteapp.mobi, www.xingchenjia.com, www.wjxcdn.com, mxvp-ad-config-prod-1.zenmxapps.com, mxvp-feature-toggle-prod-1.zenmxapps.com, tracking-server-prod-1.zenmxapps.com, g1.tagtic.cn, adlog.tagtic.cn, log.tagtic.cn, conf.vidown.cn, gg.vidown.cn, minisite.vidown.cn, rtlog.vidown.cn, tj.vidown.cn, service.ad.duomi.com, ad.qingting.fm, s.qtad.qingting.fm, ad.ximalaya.com, adse.ximalaya.com, adxserver.ad.cmvideo.cn, dspserver.ad.cmvideo.cn, openstorage.ad.cmvideo.cn, wtrace.cmgame.com, bddm.999d.com, bdjs.999d.com, h5.holalauncher.com, i.holalauncher.com, st.holalauncher.com, a.holagames.com, sta.holagames.com, i.haloapps.com, mo.test.haloapps.com, mo.haloapps.cn, a.exoclick.com, ads.exoclick.com, main.exoclick.com, origin-ads.exoclick.com, static.exoclick.com, syndication.exoclick.com, push.wandoujia.com, ss.missyouxi.com, ad.zuimeitianqi.com, stat.zuimeitianqi.com, bd1.zuimeitianqi.com, bd2.zuimeitianqi.com, hwad.zuimeitianqi.com, ad.caiyunapp.com, dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com, tuiguang.meitu.com, dfc1.benbaisteel.com, hyfh.benbaisteel.com, coro.benbaisteel.com, a.epinv.com, b.epinv.com, c1.adform.net, cas.pxl.ace.advertising.com, cdn.adsk2.co, cdn.adstract.com, adsco.re, sdksitter.m.sjzhushou.com, pat.farvd.com, openapi.guanjia.qq.com, discuz.gtimg.cn, adimg.qxlsjw.com, ad.netowl.jp, ads.stickyadstv.com, ads.adaptv.advertising.com, pixel.mathtag.com, pixel.sitescout.com, u.ads8.com, 46sg.com, x.cnxad.com, um2.eqads.com, ads.pubmatic.com, cdn.taboolasyndication.com, ads.979799777.com, c.betrad.com, rt.gsspat.jp, rudy.adsnative.com, sc.iasds01.com, tags.bluekai.com, stags.bluekai.com, static.tzyiyuantuan.com, srv.buysellads.com, ad.greedland.net, ad1.greedland.net, ad.363.in, padsdel2.cdnads.com, f1.luoshenbest.cn, lm.souid.com, nai.cpxkvc.com, wuqdebjfhjas.bid, bes-progfree.com, bdd.hainan.net, bds.hainan.net, script-bd.baixing.net, tu.baixing.com, us.bannyat.com, as.trklinklog.com, m.adxpop.com, obeyter.com, 18av.mm-cg.co, c.adsco.re, musik-mp3.info, www.uulucky.com, m.kubiqq.com, offline-adv.oray.com, hao.qquu8.com, hao549.com, www.i1236.net, hk.jtsh123.com, hao.7654.com, ad.adhouyi.cn, ad.wang502.com, maw.wnbfw.com, m.laojiayoufang.com, 58lm.vip, pb.wang502.com, lm.dawenxue.org, img.dawenxue.org, www.yueyelive.com, e.yangjingbang.net, kn.zzdahan.com, m.28487.net, m.fhxsw.org, m.guanren9.com, m.yangjingbang.net, s.l8l9.com, a.m.shuhuangge.org, ow.s1.shuhuangge.org, ow.s2.shuhuangge.org, sdk.cferw.com, hbdt.luomi.com, material.mtty.xin, mtty-cdn.mtty.xin, ds-pc.admsger.com, stats.dmp.ghac.cn, tj.tongjiwo.com, weyyae.com, fxc.aiquxs.com, pwj.biqugezw.com, vmzqwz.cn, e.emgwq.com, ad.wretch.cc, m.emgwq.com, e.hellomingpian.com, m.hellomingpian.com, a.tribalfusion.com, acuityplatform.com, ad-delivery.net, adadvisor.net, ads.creative-serving.com, adserver.adtech.de, api.primecaster.net, api.tr.blismedia.com, b1sync.zemanta.com, bh.contextweb.com, bttrack.com, c1.adform.net, cdn.districtm.io, cm.adgrx.com, cm.ctnsnet.com, cm.eyereturn.com, cm.netseer.com, cms.quantserve.com, cr-p16.ladsp.com, cti.w55c.net, d5p.de17a.com, dpm.demdex.net, dsp.adfarm1.adition.com, gload.adhood.com, green.erne.co, i.w55c.net, magnetic.t.domdex.com, map.media6degrees.com, match.adsby.bidtheatre.com, match.prod.bidr.io, match.rundsp.com, mpp.vindicosuite.com, onetag-sys.com, p.rfihub.com, pix.impdesk.com, pixel-a.sitescout.com, pixel.mathtag.com, pixel.rubiconproject.com, pixel.tapad.com, px.adhigh.net, px.owneriq.net, px.powerlinks.com, pxl.connexity.net, r.254a.com, rbp.emea.mxptint.net, rbp.mxptint.net, rc2waycm-atl.netmng.com, rcp.c.appier.net, rp.gwallet.com, rub.pxl.ace.advertising.com, rubicon-match.dotomi.com, sync-dsp.ad-m.asia, sync-tm.everesttech.net, sync.1rx.io, sync.adaptv.advertising.com, sync.adotmob.com, sync.extend.tv, sync.intentiq.com, sync.ipredictive.com, sync.mathtag.com, sync.tidaltv.com, tap-t.rubiconproject.com, tap.rubiconproject.com, token.rubiconproject.com, track-east.mobileadtrading.com, track.eyeviewads.com, tracking.m6r.eu, um.simpli.fi, um2.eqads.com, usync.aws.rubiconproject.com, e.romgv.com, m.romgv.com, track-east.mobileadtrading.com, track.eyeviewads.com, tracking.m6r.eu, ad-delivery.net, adadvisor.net, ads.creative-serving.com, adserver.adtech.de, shiwan.dl.gxpan.cn, va.gxpan.cn, api2.play.cn, open.play.cn, log.vcgame.cn, mcore.vcgame.cn, actsdk.idreamsky.com, v1-feed.idreamsky.com, img1.km.com, img2.km.com, img3.km.com, dvsend.china.com, dvser.china.com, dvser02.china.com, rank.hit.china.com, sssvd.china.com, bd-s.baixing.net, bd-js.baixing.net, iadctest.qwapi.com, bdtv.tianlangkm.com, 4336wang.cn, ads-a.juicyads.com, adserver.juicyads.com, static.exosrv.com, static.adxadserv.com, ads.adxadserv.com, pr.adxxx.com, adxxx.com, spcdnsp.i-mobile.co.jp, activity.tuipear.com, go.padsdel.com, ad.ettoday.net, aima.weathercn.com, bima.weathercn.com, baidu1.weather.com.cn, mc.weather.com.cn, dma.15tianqi.com, jsa.15tianqi.com, static.hotjar.com, ad.wang502.com, pb.wang502.com, a.19869.com, b.19869.com, statics.woozooo.com, c.evidon.com, r.dlandroid.com, banners.mellowads.com, ad.lflucky.com, i.bestcontentfare.top, ad.360yield.com, x.bidswitch.com, cdn.branch.io, adlog.tagtic.cn, sss.bxnms.com, extlog.snssdk.com, vt.ipinyou.com, api.24kidea.com, e.xroun.com, m.data.mob.com, img.adnyg.com, pgdt.ugdtimg.com, sdownload.stargame.com, s.de123.net, dc.vmoters.com, cdn.runative-syndicate.com, jy.ggweb.net, odr.mookie1.com, consent.cookiebot.com, a.adtng.com
