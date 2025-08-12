@@ -11,7 +11,7 @@
 ^https?:\/\/open\.e\.kuaishou\.com\/ - reject
 ^https?:\/\/img\.adnyg\.com.* - reject
 ^https?:\/\/log\.tagtic\.cn\/ - reject
-^https?:\/\/pgdt\.ugdtimg\.com\/ - reject
+^https?:\/\/.*\.ugdtimg\.com\/ - reject
 ^https?:\/\/sdownload\.stargame\.com\/ - reject
 ^https?:\/\/ulogs\.umeng\.com\/ - reject
 
@@ -23,4 +23,4 @@ cm=type=http-response,pattern=^https?:\/\/.*\.pangolin-sdk-toutiao\.com\/.*,requ
 cm=type=http-response,pattern=^https?:\/\/open\.e\.kuaishou\.com\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/RayJiang16/shadowrocket_diy_rules/main/js/weibo.js
 
 [MITM]
-hostname = %APPEND% mi.gdt.qq.com, g1.tagtic.cn, *.pangolin-sdk-toutiao.com, open.e.kuaishou.com, img.adnyg.com.*, log.tagtic.cn, pgdt.ugdtimg.com, sdownload.stargame.com, ulogs.umeng.com
+hostname = %APPEND% mi.gdt.qq.com, g1.tagtic.cn, *.pangolin-sdk-toutiao.com, open.e.kuaishou.com, img.adnyg.com.*, log.tagtic.cn, *.ugdtimg.com, sdownload.stargame.com, ulogs.umeng.com
