@@ -3,7 +3,6 @@
 #!originURL=https://github.com/RayJiang16/shadowrocket_diy_rules
 
 [Url Rewrite]
-
 # reject 规则
 ^https?:\/\/dns\.alidns\.com$ - reject
 ^https?:\/\/doh\.pub$ - reject
@@ -16,8 +15,8 @@
 ^https?:\/\/growth-img\.xhscdn\.com$ - reject
 ^https?:\/\/sns-webpic\.xhscdn\.com$ - reject
 ^https?:\/\/xhslive-video\.xhscnd\.com$ - reject
-^https?:\/\/xiaohongshu\.com$ - reject
-^https?:\/\/redbascket\.com$ - reject
+^https?:\/\/.*\.xiaohongshu\.com$ - reject
+^https?:\/\/.*\.redbascket\.com$ - reject
 
 [MITM]
 hostname = %APPEND% dns.alidns.com, doh.pub, ads-img-al.xhscdn.com, ads-img-qc.xhscdn.com, ads-video-al.xhscdn.com, ads-video-qc.xhscdn.com, ads-vp5.xhscdn.com, growth-img.xhscdn.com, sns-webpic.xhscdn.com, xhslive-video.xhscnd.com, ci.xiaohongshu.com, edith.xiaohongshu.com, miniprogram.xiaohongshu.com, pages.xiaohongshu.com, picasso-static.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com, live-room.xiaohongshu.com, www.xiaohongshu.com, xiaohongshu.com, redbascket.com
